@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    min-height: 100vh;
+    background: url(https://i.im.ge/2024/06/05/Kw1NW0.pexels-ganinph-7716362.png);
+    background-size: cover;
+    opacity: 0.75;
+    font-family: 'Poppins', 'Sans-serif';
+    justify-content: space-between;
+}
+nav{
+    width: 100%;
+    min-height: 35px;
+    background-color: rgba(0, 0, 0, 0.212);
+    color: black;
+    
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.menu a{
+    
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-left: 140px;
+}
+.icons{
+
+    text-decoration: none;
+    color: white;
+    padding-left: 970px;
+    
+    font-size: 20px;
+    justify-content: space-between;
+}
+.search{
+    
+    width: 50%;
+    height: 35px;
+    background: rgba(255, 255, 255, 0.575);
+    margin-left: 25%;
+    margin-top: 40px;
+    align-content: center;
+}
+.search i{
+    position: relative;
+    padding-left: 625px;
+
+}
+.gallery{
+    width:210px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.575);
+    margin-left: 100px;
+    margin-top: 20px;
+    align-content: center;
+}
+.gallery p{
+    padding-left: 7px;
+    font-weight: 600;
+    font-size: 25px;
+    color: rgb(41, 40, 40);
+   
+}
+.images .b1{
+    width: 190px;
+    height: 140px;
+    background-image: url(https://i.im.ge/2024/06/05/Kw1h3p.raghu-nayyar-EpAq2EE-shg-unsplash.jpeg);
+    background-size: cover;
+    margin-top: 15px;
+    margin-left: 110px;
+    background-position: center;
+    
+}
+.images .b1 h3{
+    font-family: cursive;
+    font-size: 30px;
+    padding-left: 105px;
+    padding-top: 105px;
+    color: white;
+}
+.images .b2{
+    width: 190px;
+    height: 140px;
+    background-image: url(https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    margin-top: 5px;
+    margin-left: 110px;
+    background-position: center;
+    
+}
+.images .b2 h3{
+    font-family: cursive;
+    font-size: 30px;
+    padding-left: 105px;
+    padding-top: 105px;
+    color: white;
+}
+.images .b3{
+    width: 190px;
+    height: 140px;
+    background-image: url(https://i.im.ge/2024/06/05/Kw19tf.MixCollage-05-Jun-2024-05-31-AM-7359.jpeg);
+    background-size: cover;
+    margin-top: 5px;
+    margin-left: 110px;
+    background-position: center;
+    
+}
+.images .b3 h3{
+    font-family: cursive;
+    font-size: 30px;
+    padding-left: 110px;
+    padding-top: 105px;
+    color: white;
+}
+.textbox {
+    width: 500px;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.541);
+    margin-left: 630px;
+    margin-top: -410px;
+    border: 1px solid rgba(12, 12, 12, 0.911);
+    display: flex;
+    flex-direction: column; /* Added */
+    justify-content: center; /* Changed */
+    align-items: left; /* Added */
+    text-align: left; /* Added */
+    z-index: 10;
+}
+
+.textbox h1, .textbox h2, .textbox h3, .textbox h4 {
+    padding-top: 5px;
+    margin: 10px 5px; /* Added margin for spacing */
+    color: black;
+}
+@media(max-width:500px){
+    nav{
+        height: 125px;
+        justify-content: center;
+    }
+    .icons{
+        padding-left: 160px;
+    }
+    .search{
+        margin-left: 15%;
+        width: 75%;
+        height: 35px;
+    }
+    .search i{
+        padding-left: 30px;
+    
+    }
+    .textbox {
+        width: 97.5%;
+        margin-top: 30px ;
+        margin-left: 5px;
+    }
+    .gallery{
+        margin-left: 125px;
+    }
+    .images .b1, .images .b2, .images .b3 {
+        margin-left: 135px;
+    }
+    
+    
+}

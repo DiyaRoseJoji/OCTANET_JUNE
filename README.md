@@ -21,3 +21,7 @@ I have created a sample landing page for the Lens & Light Photography ,is design
 **HTML FILE** **(Try3.html):** For structuring the content and layout of the landing page.
 
 **CSS FILE** **(try3.css):** For styling the elements and ensuring responsiveness.
+
+
+### Landing Page Preview
+https://diyarosejoji.github.io/OCTANET_JUNE/

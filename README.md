@@ -1,6 +1,6 @@
-# Octanet Services Pvt. Ltd. Web Development Internship (June)
+# Web Development
 
-Welcome to the GitHub repository for my web development internship at Octanet Services Pvt. Ltd. This repository contains all the projects and tasks I work on throughout my internship.
+Welcome to the GitHub repository for my web development activities.This repository contains all the projects and tasks I work on.
 
 
 ## Task 1: Landing page
